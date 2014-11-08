@@ -1,0 +1,27 @@
+{
+  "name": "bloody-mdparser",
+  "version": "1.0.0",
+  "description": "returns a stream of parsed markdown from a given glob",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bloodyowl/md-parser.git"
+  },
+  "author": "bloodyowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyowl/md-parser/issues"
+  },
+  "homepage": "https://github.com/bloodyowl/md-parser",
+  "devDependencies": {
+    "tape": "^3.0.2"
+  },
+  "dependencies": {
+    "meta-marked": "^0.3.3",
+    "through2": "^0.6.3",
+    "vinyl-fs": "^0.3.11"
+  }
+}
